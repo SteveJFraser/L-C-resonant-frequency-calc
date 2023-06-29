@@ -1,5 +1,5 @@
 
-from math import sqrt, pow
+from math import sqrt
 from PIL import ImageTk, Image
 import tkinter as tk
 
