@@ -30,6 +30,7 @@ l_label.pack()
 
 l_entry = tk.Entry(root, textvariable=inductance)
 l_entry.pack()
+l_entry.focus()
 
 c_label = tk.Label(root, text="Capacitance pF: ", font=("ARIAL", 15))
 c_label.pack()
@@ -45,4 +46,5 @@ img.pack()
 out_label = tk.Label(root, font=("ARIAL", 15))
 out_label.pack()
 
+root.bind("<Return>", calculate)
 root.mainloop()
