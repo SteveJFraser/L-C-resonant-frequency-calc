@@ -1,0 +1,1 @@
+# L-C-resonant-frequency-calc
